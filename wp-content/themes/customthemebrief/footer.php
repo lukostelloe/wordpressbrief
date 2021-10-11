@@ -1,11 +1,8 @@
-<div>
-  <div>
-      Copyright &copy;
-  </div>
-  <div >
-  <?php wp_nav_menu([
-      'menu' => 'menu footer',
-  ]); ?>
-  </div>
+<div class="footer">
+    <div>
+    Copyright &copy;
+  <?php wp_footer(); ?>
 </div>
-    <?php wp_footer(); ?>
+</div>
+</body>
+    </html>

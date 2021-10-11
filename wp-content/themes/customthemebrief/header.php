@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kevin, Luke</title>
     <?php wp_head(); ?>
 </head>
 <body>
-  <div class="navbar-container">
+  <div class="navbar_container">
     <nav>
-    <a href="#"><?php bloginfo('name'); ?></a>
+    <!-- <a href="#"><?php bloginfo('name'); ?></a> -->
     <?php wp_nav_menu([
     'menu' => 'header',
     ]); ?>
     </nav>
-</div>
+  </div>
