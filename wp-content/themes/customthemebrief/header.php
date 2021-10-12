@@ -10,9 +10,9 @@
 <body>
   <div class="navbar_container">
     <nav>
-    <!-- <a href="#"><?php bloginfo('name'); ?></a> -->
-    <?php wp_nav_menu([
-    'menu' => 'header',
-    ]); ?>
+      <img src="weblogo.jpg"/>
+      <?php wp_nav_menu([
+      'menu' => 'header',
+      ]); ?>
     </nav>
   </div>

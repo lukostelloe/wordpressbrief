@@ -1,6 +1,6 @@
 <div class="footer">
     <div>
-    Copyright &copy;
+    Copyright Kevin and Luke &copy;
   <?php wp_footer(); ?>
 </div>
 </div>
