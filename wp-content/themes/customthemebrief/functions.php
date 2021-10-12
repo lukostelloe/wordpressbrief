@@ -42,3 +42,10 @@ add_action('wp_enqueue_scripts', 'customtheme_enqueue_scripts');
 add_filter('nav_menu_css_class', 'customtheme_li_class');
 // application d'un filtre pour les classes a de la navbar
 add_filter('nav_menu_link_attributes', 'customtheme_link_class');
+
+add_theme_support( 'custom-logo', array(
+    'height' => 480,
+    'width'  => 720,
+) );
+
+

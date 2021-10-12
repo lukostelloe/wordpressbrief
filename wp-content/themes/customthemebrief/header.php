@@ -8,11 +8,10 @@
     <?php wp_head(); ?>
 </head>
 <body>
-  <div class="navbar_container">
-    <nav>
-      <img src="weblogo.jpg"/>
+
+    <nav class="navbar_container">
       <?php wp_nav_menu([
-      'menu' => 'header',
+        'menu' => 'header',
       ]); ?>
+      <div class="navlogo"></div>
     </nav>
-  </div>

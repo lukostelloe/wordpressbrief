@@ -13,6 +13,9 @@ if (have_posts()){
         <?php the_content();
         ?>
       </div>
+      <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+    
+
 
         
 <?php
